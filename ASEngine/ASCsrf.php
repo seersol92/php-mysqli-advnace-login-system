@@ -2,9 +2,7 @@
 
 /**
  * Advanced Security - PHP Register/Login System
- *
- * @author Milos Stojanovic
- * @link   http://mstojanovic.net
+ * 
  */
 
 class ASCsrf
