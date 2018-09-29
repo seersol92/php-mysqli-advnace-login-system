@@ -5,9 +5,6 @@ include 'templates/header.php';
 if (! app('current_user')->is_admin) {
     redirect("index.php");
 }
-
-// Admin user have role id equal to 3,
-// and we will omit admin from this result.
 $users = app('db')->select(
     "SELECT `as_users`.*, `as_user_roles`.`role` as role_name 
     FROM `as_users` 
